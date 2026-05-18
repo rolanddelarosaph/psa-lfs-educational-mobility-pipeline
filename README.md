@@ -1,4 +1,4 @@
-# 🇵🇭 PSA LFS Educational Intergenerational Mobility Pipeline
+# PSA Labor Force Survey Educational Intergenerational Mobility Pipeline
 
 **Python · PyMC · Bambi · ArviZ · Bayesian Multilevel Modeling**
 
@@ -9,13 +9,13 @@
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ![Pipeline Architecture](docs/architecture.png)
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Tech Stack](#-tech-stack)
@@ -32,7 +32,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 An end-to-end ETL pipeline and Bayesian statistical analysis of **intergenerational educational mobility** across all 17 Philippine regions, built on nationally representative Labor Force Survey data from the Philippine Statistics Authority.
 
@@ -50,7 +50,7 @@ The analytical layer fits a **Bayesian Multilevel Linear Model** using PyMC/Bamb
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 | Layer | Tool | Purpose |
 |---|---|---|
@@ -62,7 +62,7 @@ The analytical layer fits a **Bayesian Multilevel Linear Model** using PyMC/Bamb
 
 ---
 
-## 📂 Data Source
+##  Data Source
 
 | Source | Description | Coverage | Raw Rows |
 |---|---|---|---|
@@ -74,7 +74,7 @@ Three quarters are excluded from analysis — 2016 Q1, 2019 Q1, and 2019 Q2 — 
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 psa-lfs-educational-mobility-pipeline/
@@ -110,7 +110,7 @@ psa-lfs-educational-mobility-pipeline/
 
 ---
 
-## ⚙️ ETL Pipeline
+##  ETL Pipeline
 
 The full pipeline runs with a single command and processes all 48 quarterly files end-to-end:
 
@@ -196,7 +196,7 @@ After all quarterly files are cleaned:
 
 ---
 
-## 📓 Analytical Notebooks
+##  Analytical Notebooks
 
 ### EDA — `PSA_LFS_Exploratory_Data_Analysis.ipynb`
 
@@ -219,7 +219,7 @@ Includes: convergence diagnostics (R-hat, ESS, trace plots), regional random slo
 
 ---
 
-## 📈 Key Findings — Father–Son Educational Mobility
+##  Key Findings — Father–Son Educational Mobility
 
 > Full analysis in [`notebooks/Educational_Intergenerational_Mobility.ipynb`](notebooks/Educational_Intergenerational_Mobility.ipynb)
 
@@ -245,7 +245,7 @@ For every additional year of a father's education, a son is expected to complete
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 - Python 3.8+
